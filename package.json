@@ -1,0 +1,16 @@
+{
+    "name": "BadRecipient",
+    "license": "MIT",
+    "version": "1.0.",
+    "devDependencies": {
+        "solhint": "^5.0.3"
+    },
+    "scripts": {
+        "setup": "make clean && make build",
+        "sync": "make install",
+        "build": "make build",
+        "test": "make foundry-test",
+        "lint": "make lint",
+        "solhint": "make solhint"
+    }
+}
